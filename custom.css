@@ -45,13 +45,13 @@
 /************************************/	
 
 :root{
-	--primary-color			: #0B1030;
+	--primary-color			: #36454f;
 	--secondary-color		: #F3F3FF;
 	--text-color			: #556171;
 	/* --accent-color			: #4753BF;
 	--accent-color-two		: #506CD7; */
-	--accent-color			: #1379c2;
-	--accent-color-two		: #506CD7;
+	--accent-color			: #9aa6b2;
+	--accent-color-two		: #36454f;
 	--white-color			: #FFFFFF;
 	--divider-color			: #55617124;
 	--dark-divider-color	: #FFFFFF24;
