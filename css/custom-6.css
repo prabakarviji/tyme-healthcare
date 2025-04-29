@@ -2978,6 +2978,18 @@ header.main-header .header-sticky.active{
     overflow: hidden;
 }
 
+.blog.page-header.bg-section {
+    position: relative;
+    background-color: var(--secondary-color);
+    background-image: url('../images/blog_banner_image.jpg');
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+    padding: 125px 0;
+    overflow: hidden;
+}
+
 .page-header{
 	position: relative;
 	background-color: var(--secondary-color);
