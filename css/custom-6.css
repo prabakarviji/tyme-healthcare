@@ -575,6 +575,19 @@ header.main-header .header-sticky.active{
 	border-bottom: 1px solid var(--divider-color);
 }
 
+.main-menu .navbar-nav .nav-item .nav-link:hover,
+.main-menu .navbar-nav .nav-item:hover > .nav-link {
+    background-color: var(--accent-color);
+    color: var(--white-color) !important;
+    border-radius: 35px; /* optional for rounded effect */
+	padding: 12px;
+    transition: all 0.3s ease;
+}
+
+.nav-item.submenu > a::after {
+    display: none !important;
+}
+
 .navbar{
 	padding: 25px 0;
 	align-items: center;
@@ -2781,7 +2794,10 @@ header.main-header .header-sticky.active{
 }
 
 .footer-links ul li:hover a{
-	color: var(--accent-color);
+	color: var(--white-color);
+	background: var(--accent-color);
+	border-radius: 35px;
+	padding: 6px;
 }
 
 .footer-contact-item{
@@ -3284,10 +3300,6 @@ header.main-header .header-sticky.active{
 /***   19. Services Single css    ***/
 /************************************/
 
-.page-service-single{
-	padding: 100px 0;
-}
-
 .service-sidebar{
     position: sticky;
     top: 30px;
@@ -3440,21 +3452,33 @@ header.main-header .header-sticky.active{
 	border-radius: 46px;
 }
 
-.service-featured-image img{
-	width: 100%;
-	aspect-ratio: 1 / 0.602;
-	object-fit: cover;
+.service-featured-image{
+	position: relative;
+	background-color: var(--secondary-color);
+	background-image: url('../images/serviceHeader.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% auto;
+	padding: 125px 0;
+	overflow: hidden;
+	height: 60vh;
 	border-radius: 46px;
 }
 
 .service-entry{
 	margin-bottom: 40px;
+	padding: 20px;
 }
 
 .service-entry h2{
 	font-size: 46px;
     letter-spacing: -0.02em;
-    color: var(--primary-color);
+    color: #C07A57;
+    margin-bottom: 20px;
+}
+
+.service-entry h3{
+    color: #C07A57;
     margin-bottom: 20px;
 }
 
@@ -3498,6 +3522,14 @@ header.main-header .header-sticky.active{
 .providing-services,
 .services-comfort{
 	margin-bottom: 40px;
+}
+
+.services-comfort ul li::before{
+	background: linear-gradient(90deg, var(--accent-color) 0%, var(--accent-color-two) 100%);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
 }
 
 .service-entry-images{
@@ -4591,7 +4623,7 @@ header.main-header .header-sticky.active{
 	position: relative;
 	display: flex;
 	align-items: center;
-	background-color: var(--secondary-color);
+	background-color: var(--service-bg-color);
 	padding: 20px;
 	border-radius: 16px;
 	margin-bottom: 30px;
@@ -4693,7 +4725,7 @@ header.main-header .header-sticky.active{
 .contact-social-list span{
 	font-size: 20px;
     font-weight: 600;
-	color: var(--primary-color);
+	color: #C07A57;
     text-transform: capitalize;
 }
 
