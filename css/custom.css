@@ -45,7 +45,7 @@
 /************************************/	
 
 :root{
-	--primary-color			: #4C2C20;
+	--primary-color			: #3c3d42;
 	--secondary-color		: #E8F1F9;
 	--text-color			: #5D6D7E;
 	/* --accent-color			: #4753BF;
@@ -59,6 +59,7 @@
 	--default-font			: "DM Sans", sans-serif;
 	--body-bg-color			: #F5EDDC;
 	--service-bg-color		: #D1D5CD;
+	--form-input-bg-color	: #D1D5CD;
 }
 
 /************************************/
@@ -317,6 +318,12 @@ body{
 	z-index: 1;
 }
 
+.section-row.video-posts{
+	position: relative;
+	margin-bottom: 40px;
+	z-index: 1;
+}
+
 .section-row .section-title{
 	text-align: center;
 	width: 100%;
@@ -354,13 +361,25 @@ body{
     margin-bottom: 10px;
 }
 
+.section-title h3.blog-main-title{
+	position: relative;
+	display: inline-block;
+	font-size: 22px;
+    font-weight: 500;
+	line-height: 1.4em;
+    text-transform: capitalize;
+    color: var(--accent-color);
+	/* padding-left: 34px; */
+    margin-bottom: 10px;
+}
+
 .section-title h3::before{
     content: '';
     position: absolute;
     top: 50%;
     left: 0;
     transform: translateY(-50%);
-    background: url(../images/icon-sub-heading.svg);
+    /* background: url(../images/icon-sub-heading.svg); */
     background-repeat: no-repeat;
     background-position: left center;
     background-size: cover;
@@ -381,6 +400,17 @@ body{
 .section-title h2{
 	font-size: 46px;
 	/* margin-left: 50px; */
+	font-weight: 600;
+	line-height: 1.1em;
+	letter-spacing: -0.02em;
+	color: #C07A57;
+	margin-bottom: 0;
+	cursor: none;
+}
+
+.section-title h2.blog-sub-title{
+	font-size: 46px;
+	margin-left: 50px;
 	font-weight: 600;
 	line-height: 1.1em;
 	letter-spacing: -0.02em;
@@ -2727,11 +2757,11 @@ header.main-header .header-sticky.active{
 
 .about-footer{
 	width: 100%;
-	max-width: 300px;
+	/* max-width: 300px; */
 }
 
 .footer-logo{
-	margin-bottom: 60px;
+	margin-bottom: 25px;
 }
 
 .footer-logo img{
@@ -3557,6 +3587,10 @@ header.main-header .header-sticky.active{
 /************************************/
 /***    20. Blog Archive css  	  ***/
 /************************************/
+
+.blog-header{
+	margin-bottom: 40px;
+}
 
 .page-blog{
 	padding: 100px 0;
@@ -4775,7 +4809,7 @@ header.main-header .header-sticky.active{
 }
 
 .contact-us-form .contact-form .form-control{
-	background-color: var(--secondary-color);
+	background-color: var(--form-input-bg-color);
 }
 
 .google-map{
