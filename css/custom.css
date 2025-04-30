@@ -2792,7 +2792,7 @@ header.main-header .header-sticky.active{
 	position: relative;
 	color: var(--white-color);
 	margin-bottom: 10px;
-	padding-left: 16px;
+	/* padding-left: 16px; */
 }
 
 .footer-links ul li:last-child{
@@ -2811,6 +2811,7 @@ header.main-header .header-sticky.active{
     width: 6px;
     height: 6px;
 	transition: all 0.3s ease-in-out;
+	display: none;
 }
 
 .footer-links ul li:hover::before{
@@ -2992,6 +2993,7 @@ header.main-header .header-sticky.active{
     width: 6px;
     border-radius: 50%;
     background: var(--accent-color);
+	display: none;
 }
 
 .footer-terms-condition ul li:last-child:before{
@@ -3002,6 +3004,8 @@ header.main-header .header-sticky.active{
 	color: var(--white-color);
 	text-transform: capitalize;
 	transition: all 0.3s ease-in-out;
+	text-decoration: underline;
+	text-underline-offset: 5px;
 }
 
 .footer-terms-condition ul li:hover a{
@@ -3312,6 +3316,10 @@ header.main-header .header-sticky.active{
 
 .our-testimonial.about-us-testimonial{
 	padding: 100px 0;
+}
+
+.team-content p.job-title{
+	color: #C07A57;
 }
 
 /************************************/
@@ -4189,7 +4197,7 @@ header.main-header .header-sticky.active{
 	font-size: 16px;
 	font-weight: 600;
 	line-height: 1.4em;
-	color: var(--text-color);
+	color: #C07A57;
 	text-transform: capitalize;
 	margin-bottom: 10px;
 }
