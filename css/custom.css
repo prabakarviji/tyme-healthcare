@@ -3443,19 +3443,85 @@ header.main-header .header-sticky.active{
 	background: var(--accent-color);
 }
 
-.service-featured-image{
+.service-1-featured-image{
 	margin-bottom: 40px;
 }
 
-.service-featured-image figure{
+.service-1-featured-image figure{
 	display: block;
 	border-radius: 46px;
 }
 
-.service-featured-image{
+.service-1-featured-image{
 	position: relative;
 	background-color: var(--secondary-color);
-	background-image: url('../images/serviceHeader.png');
+	background-image: url('../images/Tyme Screening.jpeg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% auto;
+	padding: 125px 0;
+	overflow: hidden;
+	height: 60vh;
+	border-radius: 46px;
+}
+
+.service-2-featured-image{
+	margin-bottom: 40px;
+}
+
+.service-2-featured-image figure{
+	display: block;
+	border-radius: 46px;
+}
+
+.service-2-featured-image{
+	position: relative;
+	background-color: var(--secondary-color);
+	background-image: url('../images/Tyme Prevention.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% auto;
+	padding: 125px 0;
+	overflow: hidden;
+	height: 60vh;
+	border-radius: 46px;
+}
+
+.service-3-featured-image{
+	margin-bottom: 40px;
+}
+
+.service-3-featured-image figure{
+	display: block;
+	border-radius: 46px;
+}
+
+.service-3-featured-image{
+	position: relative;
+	background-color: var(--secondary-color);
+	background-image: url('../images/Tyme Research Labs.jpeg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% auto;
+	padding: 125px 0;
+	overflow: hidden;
+	height: 60vh;
+	border-radius: 46px;
+}
+
+.service-4-featured-image{
+	margin-bottom: 40px;
+}
+
+.service-4-featured-image figure{
+	display: block;
+	border-radius: 46px;
+}
+
+.service-4-featured-image{
+	position: relative;
+	background-color: var(--secondary-color);
+	background-image: url('../images/Tyme Biovault.jpeg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 100% auto;
