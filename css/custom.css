@@ -3297,10 +3297,61 @@ header.main-header .header-sticky.active{
 }
 
 .service-3-contents{
-	background-color: var(--service-bg-color);
 	padding: 40px;
 	border-radius: 35px;
 	margin-bottom: 30px;
+}
+
+.service-3-contents {
+  padding: 30px;
+}
+
+.info-box {
+  border-radius: 25px;
+  min-height: 200px;
+  overflow: hidden;
+}
+
+.yellow-box {
+  background-color: #dcc3b7;
+  font-weight: 600;
+  color: var(--white-color);
+}
+
+.gray-box {
+  background-color: #c0c5ca;
+  color: var(--white-color);
+  font-weight: 600;
+}
+
+.right1-box {
+  background-color: #b4b8b3;
+  font-weight: 600;
+  color: var(--white-color);
+}
+
+.right2-box {
+  background-color: #e5bf86;
+  color: var(--white-color);
+  font-weight: 600;
+}
+
+.image-box {
+  background: var(--accent-color-two);
+  background-size: cover;
+  font-weight: 600;
+  border-radius: 25px;
+  height: 420px;
+}
+
+.chart-area {
+  background: #aaa2a2;
+  color: var(--white-color);
+  font-weight: 600;
+  height: 200px;
+  border-radius: 15px;
+  padding: 15px;
+  margin-bottom: 20px;
 }
 
 /************************************/
