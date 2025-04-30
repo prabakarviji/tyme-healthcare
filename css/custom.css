@@ -3303,25 +3303,6 @@ header.main-header .header-sticky.active{
 	margin-bottom: 30px;
 }
 
-.service-3-contents:hover{
-	background-color: var(--accent-color);
-	color: var(--white-color);
-	padding: 40px;
-	border-radius: 35px;
-	margin-bottom: 30px;
-}
-
-.service-3-reason{
-	background-color: var(--white-color);
-	padding: 40px;
-	border-radius: 35px;
-	color: var(--text-color);
-}
-
-.service-3-reason:hover p {
-    color: var(--text-color);
-}
-
 /************************************/
 /***   19. Services Single css    ***/
 /************************************/
@@ -3522,17 +3503,43 @@ header.main-header .header-sticky.active{
 	border-radius: 46px;
 }
 
-.service-3-featured-image{
-	position: relative;
-	background-color: var(--secondary-color);
-	background-image: url('../images/Tyme Research Labs.jpeg');
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 100% auto;
-	padding: 125px 0;
-	overflow: hidden;
-	height: 60vh;
-	border-radius: 46px;
+.service-3-featured-image {
+  position: relative;
+  background-color: var(--secondary-color);
+  color: var(--white-color);
+  background-image: url('../images/Tyme Research Labs.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 125px 0;
+  overflow: hidden;
+  height: 60vh;
+  border-radius: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.service-3-featured-image-content {
+  z-index: 1;
+}
+
+.service-3-featured-image h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: var(--white-color);
+}
+
+.service-3-featured-image p {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: var(--white-color);
+}
+
+.custom-mt{
+ margin-top: 5rem;
 }
 
 .service-4-featured-image{
@@ -3593,7 +3600,6 @@ header.main-header .header-sticky.active{
 
 .service-entry ul li{
 	position: relative;
-	width: calc(50% - 10px);
 	text-transform: capitalize;
     padding-left: 30px;
 }
@@ -3629,6 +3635,24 @@ header.main-header .header-sticky.active{
 	flex-wrap: wrap;
 	gap: 30px;
 }
+
+.banner-image{
+	width: 100%;
+}
+
+.banner-image figure{
+	display: block;
+	border-radius: 46px;
+}
+
+.banner-image img{
+	width: 100%;
+	aspect-ratio: 1 / 0.835;
+	object-fit: cover;
+	border-radius: 46px;
+	margin-bottom: 20px;
+}
+
 
 .service-entry-img{
 	width: calc(50% - 15px);
