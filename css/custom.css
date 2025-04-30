@@ -50,7 +50,7 @@
 	--text-color			: #5D6D7E;
 	/* --accent-color			: #4753BF;
 	--accent-color-two		: #506CD7; */
-	--accent-color			: #8e755e;
+	--accent-color			: #4C2C20;
 	--accent-color-two		: #c3b091;
 	--white-color			: #FFFFFF;
 	--divider-color			: #55617124;
@@ -607,7 +607,7 @@ header.main-header .header-sticky.active{
 
 .main-menu .navbar-nav .nav-item .nav-link:hover,
 .main-menu .navbar-nav .nav-item:hover > .nav-link {
-    background-color: var(--accent-color);
+    background-color: #8e755e;
     color: var(--white-color) !important;
     border-radius: 35px; /* optional for rounded effect */
 	padding: 12px;
@@ -2826,7 +2826,7 @@ header.main-header .header-sticky.active{
 
 .footer-links ul li:hover a{
 	color: var(--white-color);
-	background: var(--accent-color);
+	background: #8e755e;
 	border-radius: 35px;
 	padding: 6px;
 }
@@ -3148,7 +3148,7 @@ header.main-header .header-sticky.active{
 
 .vision-mission-nav ul li:hover .nav-link,
 .vision-mission-nav ul li .nav-link.active{
-	background: var(--accent-color);
+	background: #8e755e;
 	color: var(--white-color);
 }
 
