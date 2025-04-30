@@ -2674,11 +2674,11 @@ header.main-header .header-sticky.active{
 
 .about-footer{
 	width: 100%;
-	max-width: 300px;
+	/* max-width: 300px; */
 }
 
 .footer-logo{
-	margin-bottom: 60px;
+	margin-bottom: 25px;
 }
 
 .footer-logo img{
@@ -3461,6 +3461,9 @@ header.main-header .header-sticky.active{
 /************************************/
 /***    20. Blog Archive css  	  ***/
 /************************************/
+.blog-header{
+	margin-bottom: 40px;
+}
 
 .page-blog{
 	padding: 100px 0;
