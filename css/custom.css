@@ -3296,6 +3296,32 @@ header.main-header .header-sticky.active{
 	border: 1px solid var(--divider-color);
 }
 
+.service-3-contents{
+	background-color: var(--service-bg-color);
+	padding: 40px;
+	border-radius: 35px;
+	margin-bottom: 30px;
+}
+
+.service-3-contents:hover{
+	background-color: var(--accent-color);
+	color: var(--white-color);
+	padding: 40px;
+	border-radius: 35px;
+	margin-bottom: 30px;
+}
+
+.service-3-reason{
+	background-color: var(--white-color);
+	padding: 40px;
+	border-radius: 35px;
+	color: var(--text-color);
+}
+
+.service-3-reason:hover p {
+    color: var(--text-color);
+}
+
 /************************************/
 /***   19. Services Single css    ***/
 /************************************/
