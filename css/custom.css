@@ -45,13 +45,13 @@
 /************************************/	
 
 :root{
-	--primary-color			: #8e755e;
-	--secondary-color		: #E8F1F9;
-	--text-color			: #5D6D7E;
+	--primary-color			: #5A5148;
+	--secondary-color		: #F3F3FF;
+	--text-color			: #556171;
 	/* --accent-color			: #4753BF;
 	--accent-color-two		: #506CD7; */
-	--accent-color			: #4C2C20;
-	--accent-color-two		: #c3b091;
+	--accent-color			: #5A5148;
+	--accent-color-two		: #EADDC7;
 	--white-color			: #FFFFFF;
 	--divider-color			: #55617124;
 	--dark-divider-color	: #FFFFFF24;
@@ -59,7 +59,6 @@
 	--default-font			: "DM Sans", sans-serif;
 	--body-bg-color			: #F5EDDC;
 	--service-bg-color		: #D1D5CD;
-	--form-input-bg-color	: #D1D5CD;
 }
 
 /************************************/
