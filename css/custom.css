@@ -72,6 +72,7 @@ body{
 	line-height: 1.6em;
 	/* background: var(--body-bg-color); */
 	color: var(--text-color);
+	background-color: #F5EDDC;
 }
 
 p{
@@ -225,7 +226,7 @@ body{
 	bottom: 0;
     width: 0;
     height: 100%;    
-	background: var(--primary-color);
+	background: #8e755e;
 	transform: skew(15deg);
     transition: all 0.4s ease-in-out;
     z-index: -1;
@@ -645,8 +646,8 @@ header.main-header .header-sticky.active{
 
 .main-menu ul li.nav-item .nav-link{
 	position: relative;
-	font-size: 16px;
-	font-weight: 500;
+	font-size: 18px;
+	font-weight: 600;
 	padding: 15px 20px;
 	color: #C07A57;
 	text-transform: capitalize;
@@ -1510,7 +1511,7 @@ header.main-header .header-sticky.active{
     position: absolute;
     top: 0;
     left: 0;
-    background: var(--primary-color);
+    background: #8e755e;
     border-radius: 50%;
     width: 100%;
     height: 100%;
@@ -1535,6 +1536,7 @@ header.main-header .header-sticky.active{
 .service-item-content h3{
 	font-size: 20px;
 	text-transform: capitalize;
+	color: #C07A57;
 }
 
 .service-readmore{
@@ -1709,6 +1711,7 @@ header.main-header .header-sticky.active{
 	border-top: 1px solid var(--dark-divider-color);
 	margin-top: 160px;
 	padding-top: 40px;
+	margin-left: 5%;
 	z-index: 1;
 }
 
@@ -1973,7 +1976,7 @@ header.main-header .header-sticky.active{
     right: 0;
     width: 100%;
     height: 100%;
-    background: var(--accent-color);
+    background: #8e755e;
     transition: all 0.4s ease-in-out;
     z-index: 0;
 }
@@ -2152,7 +2155,7 @@ header.main-header .header-sticky.active{
     right: 0;
     width: 100%;
     height: 100%;
-    background: var(--accent-color);
+    background: #8e755e;
     transition: all 0.4s ease-in-out;
     z-index: 0;
 }
@@ -2208,7 +2211,7 @@ header.main-header .header-sticky.active{
 }
 
 .team-content h6{
-	color: var(--accent-color);
+	color: #C07A57;
 	font-weight: 800;
 }
 
@@ -2696,7 +2699,7 @@ header.main-header .header-sticky.active{
 }
 
 .post-item-content h2{
-	color: var(--primary-color);
+	color: #C07A57;
     font-size: 20px;
 	line-height: 1.4em;
 }
@@ -2707,7 +2710,7 @@ header.main-header .header-sticky.active{
 
 .readmore-btn{
 	position: relative;
-	color: var(--accent-color);
+	color: var(--text-color);
 	font-size: 16px;
 	font-weight: 600;
 	text-transform: capitalize;
@@ -2716,7 +2719,7 @@ header.main-header .header-sticky.active{
 }
 
 .readmore-btn:hover{
-	color: var(--primary-color);
+	color: black;
 }
 
 .readmore-btn:after{
@@ -2724,7 +2727,7 @@ header.main-header .header-sticky.active{
     font-family: 'Font Awesome 6 Free';
     font-weight: 900;
     font-size: 16px;
-    color: var(--accent-color);
+    color: var(--text-color);
     display: inline-block;
     line-height: normal;
     position: absolute;
@@ -2735,7 +2738,7 @@ header.main-header .header-sticky.active{
 }
 
 .readmore-btn:hover:after{
-	color: var(--primary-color);
+	color: black;
 	transform: translate(2px , -50%);
 }
 
@@ -3137,7 +3140,8 @@ header.main-header .header-sticky.active{
 	margin: 0;
 	list-style: none;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
+	gap:118px;
 	border: none;
 }
 
@@ -3367,63 +3371,67 @@ header.main-header .header-sticky.active{
 
 .yellow-box {
   background-color: #dcc3b7;
-  font-weight: 600;
-  color: var(--text-color);
+  font-weight: 500;
+  color: black;
 }
 
 .yellow-box h5{
-  color: var(--white-color);
+  color: black;
 }
 
 .gray-box {
   background-color: #c0c5ca;
-  color: var(--text-color);
-  font-weight: 600;
+  color: black;
+  font-weight: 500;
 }
 
 .gray-box h5{
-  color: var(--white-color);
+  color: black;
 }
 
 .right1-box h5{
-  color: var(--white-color);
+  color: black;
 }
 
 .right2-box h5{
-  color: var(--white-color);
+  color: black;
 }
 
 .image-box h5{
-  color: var(--white-color);
+  color: black;
 }
 
 .right1-box {
   background-color: #b4b8b3;
-  font-weight: 600;
-  color: var(--text-color);
+  font-weight: 500;
+  color: black;
 }
 
 .right2-box {
   background-color: #e5bf86;
-  color: var(--text-color);
-  font-weight: 600;
+  color: black;
+  font-weight: 500;
 }
 
 .image-box {
   background: var(--accent-color-two);
-  color: var(--text-color);
+  color: black;
   background-size: cover;
-  font-weight: 600;
+  font-weight: 500;
   border-radius: 25px;
   height: 420px;
 }
 
 .image-box ul li{
-  color: var(--text-color);
+  color: black;
 }
 
 .image-box p{
-  color: var(--text-color);
+  color: black;
+}
+
+.image-box h6{
+  color: black;
 }
 
 .chart-area {
@@ -5147,7 +5155,7 @@ header.main-header .header-sticky.active{
 }
 
 .contact-us-form .contact-form .form-control{
-	background-color: var(--form-input-bg-color);
+	background-color: var(--service-bg-color);
 }
 
 .google-map{
