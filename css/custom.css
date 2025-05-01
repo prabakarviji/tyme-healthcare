@@ -648,7 +648,7 @@ header.main-header .header-sticky.active{
 	font-size: 16px;
 	font-weight: 500;
 	padding: 15px 20px;
-	color: var(--primary-color);
+	color: #C07A57;
 	text-transform: capitalize;
 	transition: all 0.3s ease-in-out;
 }
@@ -2774,11 +2774,23 @@ header.main-header .header-sticky.active{
 	margin-bottom: 0;
 }
 
-.footer-links h3{
-	font-size: 20px;
-	color: var(--white-color);
-	text-transform: capitalize;
-	margin-bottom: 20px;
+.footer-links h3 {
+  font-size: 20px;
+  color: var(--white-color);
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  position: relative;
+  display: inline-block;
+}
+
+.footer-links h3::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px; /* space between text and line */
+  width: 260px;  /* or you can use 50% or a fixed value */
+  height: 1px;  /* underline thickness */
+  background-color: #ffffff; /* white underline */
 }
 
 .footer-links ul{
@@ -2885,11 +2897,15 @@ header.main-header .header-sticky.active{
 	margin: 0;
 }
 
+.custom-text-color h5{
+	color: var(--white-color);
+}
+
 .footer-social-link{
 	display: flex;
     align-items: center;
 	justify-content: space-between;
-	margin-top: 60px;
+	/* margin-top: 60px; */
 }
 
 .footer-social-link hr{
@@ -3355,10 +3371,30 @@ header.main-header .header-sticky.active{
   color: var(--text-color);
 }
 
+.yellow-box h5{
+  color: var(--white-color);
+}
+
 .gray-box {
   background-color: #c0c5ca;
   color: var(--text-color);
   font-weight: 600;
+}
+
+.gray-box h5{
+  color: var(--white-color);
+}
+
+.right1-box h5{
+  color: var(--white-color);
+}
+
+.right2-box h5{
+  color: var(--white-color);
+}
+
+.image-box h5{
+  color: var(--white-color);
 }
 
 .right1-box {
@@ -3831,7 +3867,7 @@ header.main-header .header-sticky.active{
 	object-fit: cover;
 	border-radius: 46px;
 	margin-bottom: 20px;
-	height: 570px;
+	/* height: 570px; */
 }
 
 .banner-image-service1-2{
@@ -3849,7 +3885,7 @@ header.main-header .header-sticky.active{
 	object-fit: inherit;
 	border-radius: 46px;
 	margin-bottom: 20px;
-	height: 850px;
+	/* height: 850px; */
 }
 
 .banner-image-service2-2{
@@ -3867,7 +3903,7 @@ header.main-header .header-sticky.active{
 	object-fit: inherit;
 	border-radius: 46px;
 	margin-bottom: 20px;
-	height: 1060px;
+	/* height: 1060px; */
 }
 
 .service-entry-img{
