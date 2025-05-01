@@ -3352,33 +3352,42 @@ header.main-header .header-sticky.active{
 .yellow-box {
   background-color: #dcc3b7;
   font-weight: 600;
-  color: var(--white-color);
+  color: var(--text-color);
 }
 
 .gray-box {
   background-color: #c0c5ca;
-  color: var(--white-color);
+  color: var(--text-color);
   font-weight: 600;
 }
 
 .right1-box {
   background-color: #b4b8b3;
   font-weight: 600;
-  color: var(--white-color);
+  color: var(--text-color);
 }
 
 .right2-box {
   background-color: #e5bf86;
-  color: var(--white-color);
+  color: var(--text-color);
   font-weight: 600;
 }
 
 .image-box {
   background: var(--accent-color-two);
+  color: var(--text-color);
   background-size: cover;
   font-weight: 600;
   border-radius: 25px;
   height: 420px;
+}
+
+.image-box ul li{
+  color: var(--text-color);
+}
+
+.image-box p{
+  color: var(--text-color);
 }
 
 .chart-area {
