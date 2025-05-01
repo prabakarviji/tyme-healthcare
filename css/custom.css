@@ -3547,6 +3547,41 @@ header.main-header .header-sticky.active{
 	background: var(--accent-color);
 }
 
+.service-1-featured-image {
+  position: relative;
+  background-color: var(--secondary-color);
+  color: var(--white-color);
+  background-image: url('../images/Tyme Screening.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 125px 0;
+  overflow: hidden;
+  height: 60vh;
+  border-radius: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.service-1-featured-image-content {
+  z-index: 1;
+}
+
+.service-1-featured-image h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: var(--white-color);
+}
+
+.service-1-featured-image p {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: var(--white-color);
+}
+
 .service-1-featured-image{
 	margin-bottom: 40px;
 }
@@ -3556,17 +3591,40 @@ header.main-header .header-sticky.active{
 	border-radius: 46px;
 }
 
-.service-1-featured-image{
-	position: relative;
-	background-color: var(--secondary-color);
-	background-image: url('../images/Tyme Screening.jpeg');
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 100% auto;
-	padding: 125px 0;
-	overflow: hidden;
-	height: 60vh;
-	border-radius: 46px;
+
+.service-2-featured-image {
+  position: relative;
+  background-color: var(--secondary-color);
+  color: var(--white-color);
+  background-image: url('../images/Tyme Prevention.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 125px 0;
+  overflow: hidden;
+  height: 60vh;
+  border-radius: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.service-2-featured-image-content {
+  z-index: 1;
+}
+
+.service-2-featured-image h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: var(--white-color);
+}
+
+.service-2-featured-image p {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: var(--white-color);
 }
 
 .service-2-featured-image{
@@ -3575,19 +3633,6 @@ header.main-header .header-sticky.active{
 
 .service-2-featured-image figure{
 	display: block;
-	border-radius: 46px;
-}
-
-.service-2-featured-image{
-	position: relative;
-	background-color: var(--secondary-color);
-	background-image: url('../images/Tyme Prevention.png');
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 100% auto;
-	padding: 125px 0;
-	overflow: hidden;
-	height: 60vh;
 	border-radius: 46px;
 }
 
@@ -3771,6 +3816,59 @@ header.main-header .header-sticky.active{
 	margin-bottom: 20px;
 }
 
+.banner-image-service1{
+	width: 100%;
+}
+
+.banner-image-service1 figure{
+	display: block;
+	border-radius: 46px;
+}
+
+.banner-image-service1 img{
+	width: 100%;
+	aspect-ratio: 1 / 0.835;
+	object-fit: cover;
+	border-radius: 46px;
+	margin-bottom: 20px;
+	height: 570px;
+}
+
+.banner-image-service1-2{
+	width: 100%;
+}
+
+.banner-image-service1-2 figure{
+	display: block;
+	border-radius: 46px;
+}
+
+.banner-image-service1-2 img{
+	width: 100%;
+	aspect-ratio: 1 / 0.835;
+	object-fit: inherit;
+	border-radius: 46px;
+	margin-bottom: 20px;
+	height: 850px;
+}
+
+.banner-image-service2-2{
+	width: 100%;
+}
+
+.banner-image-service2-2 figure{
+	display: block;
+	border-radius: 46px;
+}
+
+.banner-image-service2-2 img{
+	width: 100%;
+	aspect-ratio: 1 / 0.835;
+	object-fit: inherit;
+	border-radius: 46px;
+	margin-bottom: 20px;
+	height: 1060px;
+}
 
 .service-entry-img{
 	width: calc(50% - 15px);
