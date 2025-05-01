@@ -3627,10 +3627,6 @@ header.main-header .header-sticky.active{
   color: var(--white-color);
 }
 
-.custom-mt{
- margin-top: 5rem;
-}
-
 .service-4-featured-image{
 	margin-bottom: 40px;
 }
@@ -3640,17 +3636,43 @@ header.main-header .header-sticky.active{
 	border-radius: 46px;
 }
 
-.service-4-featured-image{
-	position: relative;
-	background-color: var(--secondary-color);
-	background-image: url('../images/Tyme Biovault.jpeg');
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 100% auto;
-	padding: 125px 0;
-	overflow: hidden;
-	height: 60vh;
-	border-radius: 46px;
+.service-4-featured-image {
+  position: relative;
+  background-color: var(--secondary-color);
+  color: var(--white-color);
+  background-image: url('../images/Tyme Biovault.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 125px 0;
+  overflow: hidden;
+  height: 60vh;
+  border-radius: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.service-4-featured-image-content {
+  z-index: 1;
+}
+
+.service-4-featured-image h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: var(--white-color);
+}
+
+.service-4-featured-image p {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: var(--white-color);
+}
+
+.custom-mt{
+ margin-top: 5rem;
 }
 
 .service-entry{
