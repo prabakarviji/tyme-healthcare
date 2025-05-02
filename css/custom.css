@@ -519,6 +519,13 @@ body{
 	cursor: default !important;
 }
 
+.topbar-contact-info.phone li a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px; /* space between icon and number */
+  white-space: nowrap; /* prevents line breaks */
+}
+
 .topbar-contact-info ul li a span{
 	font-weight: 700;
 	margin-right: 3px;
@@ -1737,6 +1744,7 @@ header.main-header .header-sticky.active{
 
 .why-choose-item:hover .icon-box{
 	background-position: right center;
+	background: #8e755e;
 }
 
 .why-choose-item .icon-box img{
@@ -2860,8 +2868,8 @@ header.main-header .header-sticky.active{
 
 .footer-contact-item .icon-box{
 	position: relative;
-	height: 40px;
-	width: 40px;
+	height: 30px;
+	width: 30px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -3445,6 +3453,22 @@ header.main-header .header-sticky.active{
   border-radius: 15px;
   padding: 15px;
   margin-bottom: 20px;
+}
+
+.info-box > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%; /* so the content can stretch equally */
+}
+
+.info-box p {
+  min-height: 60px; /* adjust based on your design */
+}
+
+.custom-txt{
+	color: #C07A57;
+	margin-left: 20px;
 }
 
 /************************************/
