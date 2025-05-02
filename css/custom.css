@@ -2851,7 +2851,7 @@ header.main-header .header-sticky.active{
 
 .footer-links ul li:hover a{
 	color: var(--white-color);
-	background: #8e755e;
+	background: #5A5148;
 	border-radius: 35px;
 	padding: 6px;
 }
