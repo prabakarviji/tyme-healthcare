@@ -3,37 +3,43 @@
 	$errorMSG = "";
 
 	// NAME
-	if (empty($_POST["name"])) {
-		$errorMSG = "Name is required. ";
+	if (empty($_POST["first_name"])) {
+		$errorMSG = "First Name is required. ";
 	} else {
-		$name = $_POST["name"];
+		$first_name = $_POST["first_name"];
+	}
+
+	if (empty($_POST["last_name"])) {
+		$errorMSG = "Last Name is required. ";
+	} else {
+		$last_name = $_POST["last_name"];
 	}
 
 	// EMAIL
-	if (empty($_POST["email"])) {
-		$errorMSG .= "Email is required. ";
+	if (empty($_POST["email_address"])) {
+		$errorMSG .= "Email  Address is required. ";
 	} else {
-		$email = $_POST["email"];
+		$email_address = $_POST["email_address"];
 	}
 
 	// PHONE
-	if (empty($_POST["phone"])) {
-		$errorMSG .= "Phone is required. ";
+	if (empty($_POST["contact_number"])) {
+		$errorMSG .= "Contact Number is required. ";
 	} else {
-		$phone = $_POST["phone"];
+		$contact_number = $_POST["contact_number"];
 	}
 
 	// MESSAGE
-	if (empty($_POST["message"])) {
-		$errorMSG .= "Message is required. ";
+	if (empty($_POST["comment"])) {
+		$errorMSG .= "Comment is required. ";
 	} else {
-		$message = $_POST["message"];
+		$comment = $_POST["comment"];
 	}
 
-	$subject = 'Contact Inquiry from Physiocare Website';
+	$subject = 'Contact Inquiry from TyMe Website';
 
 	//$EmailTo = "info@yourdomain.com"; // Replace with your email.
-    $EmailTo = "ajithkumar.ps@spritle.com";
+    $EmailTo = "info@tymeinstitute.com";
     
 	// prepare email body text
 	$Body = "";
