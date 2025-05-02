@@ -203,7 +203,7 @@ body{
 	font-weight: 600;
 	line-height: 1em;
 	text-transform: capitalize;
-	background: linear-gradient(90deg, var(--accent-color) 0%, var(--accent-color-two) 100%);
+	background: linear-gradient(90deg, #017cc6 0%, #bab8b6 100%);
 	color: var(--white-color);
 	border-radius: 50px;
 	padding: 17px 30px;
@@ -226,7 +226,7 @@ body{
 	bottom: 0;
     width: 0;
     height: 100%;    
-	background: #8e755e;
+	background: #017cc6;
 	transform: skew(15deg);
     transition: all 0.4s ease-in-out;
     z-index: -1;
@@ -3165,7 +3165,7 @@ header.main-header .header-sticky.active{
 }
 
 .vision-mission-nav ul li .nav-link{
-	background: linear-gradient(90deg, var(--accent-color) 0%, var(--accent-color-two) 100%);
+	background: linear-gradient(90deg, #017cc6 0%, #bab8b6 100%);
 	color: var(--white-color);
 	font-size: 16px;
 	font-weight: 600;
@@ -3178,7 +3178,7 @@ header.main-header .header-sticky.active{
 
 .vision-mission-nav ul li:hover .nav-link,
 .vision-mission-nav ul li .nav-link.active{
-	background: #8e755e;
+	background: #017cc6;
 	color: var(--white-color);
 }
 
