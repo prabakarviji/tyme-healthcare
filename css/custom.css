@@ -3459,7 +3459,7 @@ header.main-header .header-sticky.active{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100%; /* so the content can stretch equally */
+  height: 80%; /* so the content can stretch equally */
 }
 
 .info-box p {
