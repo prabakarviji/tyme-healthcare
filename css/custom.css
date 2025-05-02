@@ -76,7 +76,7 @@ body{
 }
 
 p{
-	line-height: 1.6em;
+	line-height: 1.75em;
 	margin-bottom: 1.6em;
 }
 
@@ -1995,8 +1995,8 @@ header.main-header .header-sticky.active{
 	max-width: 60px;
 	transition: all 0.4s ease-in-out;
 	filter: invert(62%) sepia(34%) saturate(561%) hue-rotate(326deg) brightness(97%) contrast(87%);
-	margin-top: 50px;
-	margin-right: 20px;
+	margin-top: 15px;
+	margin-right: 10px;
 }
 
 .faq-cta-box:hover .icon-box img{
