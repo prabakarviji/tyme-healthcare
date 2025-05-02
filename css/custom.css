@@ -50,7 +50,7 @@
 	--text-color			: #556171;
 	/* --accent-color			: #4753BF;
 	--accent-color-two		: #506CD7; */
-	--accent-color			: #5A5148;
+	--accent-color			: #4C2C20;
 	--accent-color-two		: #EADDC7;
 	--white-color			: #FFFFFF;
 	--divider-color			: #55617124;
@@ -2851,7 +2851,7 @@ header.main-header .header-sticky.active{
 
 .footer-links ul li:hover a{
 	color: var(--white-color);
-	background: #5A5148;
+	background: var(--accent-color);
 	border-radius: 35px;
 	padding: 6px;
 }
@@ -5057,7 +5057,7 @@ header.main-header .header-sticky.active{
     right: 0;
     width: 100%;
     height: 0;
-    background: var(--primary-color);
+    background: var(--accent-color);
     transition: all 0.4s ease-in-out;
     z-index: 0;
 }
@@ -5172,7 +5172,7 @@ header.main-header .header-sticky.active{
 }
 
 .contact-social-list ul li:hover a i{
-    color: var(--primary-color);
+    color: var(--accent-color);
 }
 
 .contact-us-form{
