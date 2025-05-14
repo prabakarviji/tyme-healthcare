@@ -3048,7 +3048,7 @@ header.main-header .header-sticky.active{
 .about-us.page-header.bg-section {
     position: relative;
     background-color: var(--secondary-color);
-    background-image: url('../images/about_us_first.jpg');
+    background-image: url('../images/about_us_first.webp');
     height: 60vh;
     background-repeat: no-repeat;
     background-position: center;
@@ -3060,7 +3060,7 @@ header.main-header .header-sticky.active{
 .blog.page-header.bg-section {
     position: relative;
     background-color: var(--secondary-color);
-    background-image: url('../images/blog_banner_image.jpg');
+    background-image: url('../images/blog_banner_image.webp');
     height: 60vh;
     background-repeat: no-repeat;
     background-position: center;
@@ -3072,7 +3072,7 @@ header.main-header .header-sticky.active{
 .page-header{
 	position: relative;
 	background-color: var(--secondary-color);
-	background-image: url('../images/contact_us_banner.jpg');
+	background-image: url('../images/contact_us_banner.webp');
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: 100% auto;
@@ -3622,7 +3622,7 @@ header.main-header .header-sticky.active{
   position: relative;
   background-color: var(--secondary-color);
   color: var(--white-color);
-  background-image: url('../images/Tyme Screening.jpeg');
+  background-image: url('../images/Tyme Screening.webp');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -3667,7 +3667,7 @@ header.main-header .header-sticky.active{
   position: relative;
   background-color: var(--secondary-color);
   color: var(--white-color);
-  background-image: url('../images/Tyme Prevention.png');
+  background-image: url('../images/Tyme Prevention.webp');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -3720,7 +3720,7 @@ header.main-header .header-sticky.active{
   position: relative;
   background-color: var(--secondary-color);
   color: var(--white-color);
-  background-image: url('../images/Tyme Research Labs.jpeg');
+  background-image: url('../images/Tyme Research Labs.webp');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -3764,7 +3764,7 @@ header.main-header .header-sticky.active{
   position: relative;
   background-color: var(--secondary-color);
   color: var(--white-color);
-  background-image: url('../images/Tyme Biovault.jpeg');
+  background-image: url('../images/Tyme Biovault.webp');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
