@@ -39,7 +39,7 @@
 	$subject = 'Contact Inquiry from TyMe Website';
 
 	//$EmailTo = "info@yourdomain.com"; // Replace with your email.
-    $EmailTo = "ajithkumar.ps@spritle.com";
+    $EmailTo = " info@tymeinstitute.com";
     
 	// prepare email body text
 	$Body = "";
